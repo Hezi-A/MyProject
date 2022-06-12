@@ -1,8 +1,10 @@
 # ===== Path Scanner by Hezi A ===== #
-
+import platform
 import os.path
 import urllib3
 
+if platform.system().lower() == "windows" or platform.system().lower() == "linux":
+    
 url = input("Enter URL: ") #    https://hack-yourself-first.com
 
 while True:
